@@ -1,8 +1,29 @@
+@import 'reset.css';
+@import 'padrao.css';
+
 .container{
-	max-width:160px;
-	background-color:blueviolet;
+	height:100px;
+	padding:0 2%;
+	margin:0 auto;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	background-color:white;
 }
 
-.logo{
-  color:red;
+.items{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+	gap:4rem;
+}
+
+.links{
+	font-size:22px;
+	font-weight:30px;
+	color:black;
 }
