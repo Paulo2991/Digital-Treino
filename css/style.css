@@ -1,0 +1,11 @@
+@import "padrao.css";
+@import "reset.css";
+
+.container{
+	max-width:160px;
+	background-color:blueviolet;
+}
+
+.logo{
+  color:red;
+}
